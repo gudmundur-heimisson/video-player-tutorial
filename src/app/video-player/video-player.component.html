@@ -1,0 +1,5 @@
+<video #videoPlayer class="video-player" 
+       src="{{videoUrl}}" 
+       [attr.height]="videoHeight" 
+       [attr.width]="videoWidth"
+       (click)=onPlay($event)></video>

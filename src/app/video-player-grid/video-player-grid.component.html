@@ -1,0 +1,7 @@
+<div *ngFor="let player of playerAttrs">
+    <video-player 
+        [videoHeight]="player.videoHeight" 
+        [videoWidth]="player.videoWidth"
+        (play)="onPlay($event)">
+    </video-player>
+</div>
